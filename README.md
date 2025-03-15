@@ -29,4 +29,4 @@ Generic docker image using the
 
 eg. (using git ssh)
 
-`cookiecutter ssh://git@bitbucket.workday.com:7999/netauto/cookiecutter-netauto.git --directory docker-image`
+`cookiecutter git@github.com:hyperion1209/cookiecutter.git --directory python_package`
