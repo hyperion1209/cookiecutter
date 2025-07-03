@@ -3,10 +3,10 @@
     "project_slug": "my_python_project",
     "description": "My Awesome Python Project",
     "python_version": [
-        "3.9",
-        "3.10",
-        "3.11",
-        "3.12"
+        "3.12",
+        "3.13",
+        "3.14",
+        "3.15"
     ],
     "pyver": "{{ cookiecutter.python_version | replace('.', '') }}",
     "_extensions": [
