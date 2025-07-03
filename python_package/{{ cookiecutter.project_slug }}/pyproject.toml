@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "{{ cookiecutter.project_slug }}"
 version = "0.1.0"
-description = "Monitor web app reachability and health"
+description = "{{ cookiecutter.description }}"
 authors = ["hyperion1209 <hyperion1209@users.noreply.github.com>"]
 readme = "README.md"
 packages = [
@@ -9,7 +9,7 @@ packages = [
 ]
 include = [
   # The version file is ignored by git so it needs to be explicitly included
-  "src/app_monitor/_version.py",
+  "src/{{ cookiecutter.project_slug }}/_version.py",
 ]
 
 [tool.poetry.scripts]
